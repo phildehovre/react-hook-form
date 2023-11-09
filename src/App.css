@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form-ctn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.349);
+  justify-content: center;
+  padding: 1em;
+  border-radius: 16px;
+  width: 400px
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  width: 100%;
+}
+
+.form-control {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+
+
+  > label {
+    text-align: left;
+    width: 80%;
+  }
+  > p {
+    text-align: left;
+    width: 80%;
+  }
+}
+
+input[type='text'], 
+input[type='email'] 
+{
+  width: 80%;
+  padding: .8em;
+}
+
+.error {
+  color: salmon;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
